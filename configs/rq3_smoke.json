@@ -1,0 +1,33 @@
+{
+  "rq": "rq3",
+  "description": "Selected positive-noise matched-pool budgets and all four objectives.",
+  "parameters": {
+    "noise_rates": [
+      0.05
+    ],
+    "budgets": [
+      0,
+      6,
+      9,
+      12
+    ],
+    "prior": 0.5,
+    "check_lengths": [
+      4,
+      6
+    ],
+    "metrics": [
+      "common",
+      "population"
+    ],
+    "objectives": true,
+    "tie_conventions": [
+      "public"
+    ],
+    "formula_priors": [
+      0,
+      0.5,
+      1
+    ]
+  }
+}

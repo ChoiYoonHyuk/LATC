@@ -1,0 +1,46 @@
+{
+  "rq": "rq2",
+  "description": "L.2/L.4/P.1 independent paired studies. Original unspecified stream-index encoding is not reconstructed.",
+  "parameters": {
+    "seed": 2026,
+    "dimensions": [
+      8,
+      12
+    ],
+    "noise_rates": [
+      0.01,
+      0.025,
+      0.05
+    ],
+    "lambdas": [
+      1.5,
+      1.7,
+      1.9
+    ],
+    "prior": 0.5,
+    "studies": [
+      {
+        "name": "prefix128",
+        "id": 128,
+        "samples": 128,
+        "flat_control": false,
+        "fixed_controls": true
+      },
+      {
+        "name": "paired512",
+        "id": 512,
+        "samples": 512,
+        "flat_control": false,
+        "fixed_controls": false
+      },
+      {
+        "name": "affine_flat512",
+        "id": 513,
+        "samples": 512,
+        "flat_control": true,
+        "fixed_controls": false
+      }
+    ],
+    "save_samples": true
+  }
+}

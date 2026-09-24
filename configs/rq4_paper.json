@@ -1,0 +1,44 @@
+{
+  "rq": "rq4",
+  "description": "Section 6.3; P.2-P.4; Q. Directed-rounding certificates and 131072 outcomes per model per testing cell.",
+  "parameters": {
+    "precision": 80,
+    "direct_dimensions": [
+      768,
+      1024,
+      2048,
+      4096
+    ],
+    "analytic_dimensions": [
+      256,
+      1024,
+      4096,
+      16384,
+      65536,
+      262144
+    ],
+    "flat_dimensions": [
+      8,
+      12,
+      16,
+      20,
+      24,
+      32
+    ],
+    "verification_dimensions": [
+      1024,
+      4096,
+      262144
+    ],
+    "simulate_verification": true,
+    "verification_noise_rates": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "verification_samples": 131072,
+    "seed": 2026,
+    "chunk_size": 512,
+    "verification_study_id": 4096
+  }
+}

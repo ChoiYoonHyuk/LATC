@@ -1,0 +1,34 @@
+{
+  "rq": "rq1",
+  "description": "Section 6.1; Appendices H, K, L.1; complete curves and public-prior sensitivity.",
+  "parameters": {
+    "dimensions": [
+      8,
+      12
+    ],
+    "budgets": "all",
+    "prior": 0.5,
+    "basis_dimensions": [
+      8,
+      12,
+      16
+    ],
+    "basis_noise_rates": [
+      0
+    ],
+    "prior_dimensions": [
+      8,
+      12,
+      16
+    ],
+    "prior_values": [
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      0.95,
+      0.99
+    ]
+  }
+}

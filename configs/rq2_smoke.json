@@ -1,0 +1,29 @@
+{
+  "rq": "rq2",
+  "description": "Small paired study with prefix, checks, affine flat and subcube; not paper Monte Carlo estimates.",
+  "parameters": {
+    "seed": 2026,
+    "dimensions": [
+      8
+    ],
+    "noise_rates": [
+      0.05
+    ],
+    "lambdas": [
+      1.5,
+      1.7,
+      1.9
+    ],
+    "prior": 0.5,
+    "studies": [
+      {
+        "name": "smoke",
+        "id": 9002,
+        "samples": 16,
+        "flat_control": true,
+        "fixed_controls": true
+      }
+    ],
+    "save_samples": true
+  }
+}

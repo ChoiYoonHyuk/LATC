@@ -1,0 +1,25 @@
+{
+  "rq": "rq1",
+  "description": "Selected CP-8 operating points plus the basis control.",
+  "parameters": {
+    "dimensions": [
+      8
+    ],
+    "budgets": [
+      0,
+      9,
+      13,
+      16,
+      17,
+      18
+    ],
+    "prior": 0.5,
+    "basis_dimensions": [
+      8
+    ],
+    "basis_noise_rates": [
+      0
+    ],
+    "prior_dimensions": []
+  }
+}
