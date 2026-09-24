@@ -1,14 +1,7 @@
 # Query-Pool Geometry and Bayes Risk in Noisy Affine Prediction
 
 
-## Main experiment code
 
-This package contains an independent Python implementation of the main experiments in **Query-Pool Geometry and Bayes Risk in Noisy Affine Prediction
-**. It is the previously provided implementation with Python comments and docstrings removed. Numerical algorithms, experimental settings, random-number generation, and test assertions are unchanged. Command-line descriptions remain ordinary runtime strings so that help output is preserved.
-
-The archive contains source code, tests, dependency and project configuration files, small manuscript-derived regression fixtures, and this `ReadMe.md`. It does not contain generated experiment results, target archives, figures, execution logs, or previous reports. Those outputs are created when the commands below are executed.
-
-The experiments use synthetic binary affine populations. No external dataset download, GPU, API key, or pretrained model is required. This implementation was written from the supplied manuscript; it is not a copy of the manuscript's linked repository.
 
 ## 1. Environment and installation
 
