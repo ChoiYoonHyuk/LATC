@@ -1,8 +1,10 @@
-# Label-Access Geometry and the Value of Adaptivity in Noisy Affine Prediction
+# Query-Pool Geometry and Bayes Risk in Noisy Affine Prediction
+
 
 ## Main experiment code
 
-This package contains an independent Python implementation of the main experiments in **Label-Access Geometry and the Value of Adaptivity in Noisy Affine Prediction**. It is the previously provided implementation with Python comments and docstrings removed. Numerical algorithms, experimental settings, random-number generation, and test assertions are unchanged. Command-line descriptions remain ordinary runtime strings so that help output is preserved.
+This package contains an independent Python implementation of the main experiments in **Query-Pool Geometry and Bayes Risk in Noisy Affine Prediction
+**. It is the previously provided implementation with Python comments and docstrings removed. Numerical algorithms, experimental settings, random-number generation, and test assertions are unchanged. Command-line descriptions remain ordinary runtime strings so that help output is preserved.
 
 The archive contains source code, tests, dependency and project configuration files, small manuscript-derived regression fixtures, and this `ReadMe.md`. It does not contain generated experiment results, target archives, figures, execution logs, or previous reports. Those outputs are created when the commands below are executed.
 
